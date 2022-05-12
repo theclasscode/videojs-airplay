@@ -71,7 +71,7 @@ AirPlayButton = {
    _getMediaEl: function() {
       var playerEl = this.player().el();
 
-      return playerEl.querySelector('video, audio');
+      return playerEl.querySelector('video');
    },
 
    /**

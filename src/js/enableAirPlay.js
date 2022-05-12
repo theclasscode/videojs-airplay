@@ -46,7 +46,7 @@ function ensureAirPlayButtonExists(player, options) {
  * @param player {object} the Video.js Player instance
  */
 function onAirPlayRequested(player) {
-   var mediaEl = player.el().querySelector('video, audio');
+   var mediaEl = player.el().querySelector('video');
 
    if (mediaEl && mediaEl.webkitShowPlaybackTargetPicker) {
       mediaEl.webkitShowPlaybackTargetPicker();

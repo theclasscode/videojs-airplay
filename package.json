@@ -61,7 +61,6 @@
   "peerDependencies": {
     "video.js": ">= 6.0.0"
   },
-  "dependencies": {},
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
